@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5024565467804769326
+  m_GuidHigh: 275849672195057556
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4895378134479894946
+      m_GuidHigh: 8895420825464742796
+    m_SerializedTextureGuid:
+      m_GuidLow: 3752312827583085049
+      m_GuidHigh: 14542171895946394202
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: A_ClassRoom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4976636304269492143
+      m_GuidHigh: 10805234152212708533
+    m_SerializedTextureGuid:
+      m_GuidLow: 10683273586868349403
+      m_GuidHigh: 17371354174267900811
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: B_Toilet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5134588071716575292
+      m_GuidHigh: 7352912408809805218
+    m_SerializedTextureGuid:
+      m_GuidLow: 14145648491566358337
+      m_GuidHigh: 4267834608800558104
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: C_MeetingRoom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5525508180899115395
+      m_GuidHigh: 13484170810044090551
+    m_SerializedTextureGuid:
+      m_GuidLow: 13032241048802801817
+      m_GuidHigh: 14485740156591089849
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: D_Hall
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5284927896508451411
+      m_GuidHigh: 8618558640894871475
+    m_SerializedTextureGuid:
+      m_GuidLow: 14189918941848450593
+      m_GuidHigh: 10318855589115509688
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: E_Exit
+    m_Texture: {fileID: 0}
