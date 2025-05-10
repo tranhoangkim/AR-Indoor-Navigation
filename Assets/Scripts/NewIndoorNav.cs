@@ -59,11 +59,8 @@ public class NewIndoorNav1 : MonoBehaviour {
                 return;
 
             Vector3 begin = player.position;
-            Vector3 end = currentDestination.position; // navigationTargets[selectedTargetIndex].transform.position;
-            // end.y = 0.5f;
-
+            Vector3 end = currentDestination.position; 
             NavMesh.CalculatePath(begin, end, NavMesh.AllAreas, navMeshPath);
-
             if (navMeshPath.status == NavMeshPathStatus.PathComplete) {
                 line.positionCount = navMeshPath.corners.Length;
                 line.SetPositions(navMeshPath.corners);
@@ -123,18 +120,6 @@ public class NewIndoorNav1 : MonoBehaviour {
                 navigationBase.transform.SetPositionAndRotation(updatedImage.pose.position, Quaternion.Euler(0, updatedImage.pose.rotation.eulerAngles.y, 0));
                 // AlignXROrigin(updatedImage);
             }
-        }
-
-        foreach (var removedImagePair in eventArgs.removed)
-        {
-            // var removedImage = removedImagePair.Value; // Extract ARTrackedImage from KeyValuePair
-            // if (removedImage.referenceImage.name == alignedImageName)
-            // {
-            //     alignedImageName = null;
-            //     Destroy(navigationBase);
-            //     navigationTargets.Clear();
-            //     endpointDropdown.gameObject.SetActive(false);
-            // }
         }
     }
 
